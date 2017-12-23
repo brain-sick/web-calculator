@@ -1,0 +1,98 @@
+body
+{
+	background-image:url("images/background.jpg");
+
+	background-position: center center;
+	background-size: cover;
+}
+#container{
+	background-color: rgba(3,3,3,0.4);
+	top:7%;
+	left:30%;
+	position:absolute; 
+	box-shadow: 10px 10px 
+	height:700px;
+	width:520px;
+	overflow: auto;
+	padding: 5px; 
+	color:white;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.button{
+	margin:5px;
+	
+	font-size: 25px;
+	background-color: #008000;
+    border: none;
+    color: white;
+ 
+}
+.button:hover{
+	box-shadow: 6px 6px 11px 2px rgba(5,5,5,0.8);
+	margin:5px;
+	
+	font-size: 25px;
+	background-color: #008000
+;
+    border: none;
+    color: white;
+    cursor:pointer;
+
+}
+#first{
+		margin-left:130px;
+		margin-top: 20px;
+		font-size: 22px;
+
+}
+#second{
+	margin-left:130px;
+	margin-bottom:0px;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+#output{
+	color:white;
+	position:center;
+	margin:20px 120px 15px;
+}
+#enter-number{
+	background-color:#3d0099;
+	color:white; 
+}
+.type{
+	margin-left: 120px;
+	margin-bottom: -2vw;
+	margin-top:1vw;
+	font-size: 30px;
+}
+#clear{
+	background-color: #006622;
+    border: none;
+    color: white;
+    cursor:pointer;
+    font-size: 25px;
+    margin-top: 20px;
+}
+#reset:hover{
+	box-shadow: 6px 6px 11px 2px rgba(5,5,5,0.8);
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor:pointer;
+    font-size: 25px;
+    margin-top: 20px;
+}
+h2{
+	margin:1vw;
+}
+#output{
+	border:2px dashed #00e64d;
+	padding:4px;
+	text-align: center;
+	text-align: center;
+	background-color: white;
+	color:black;
+}

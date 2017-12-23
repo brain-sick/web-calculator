@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>simple Calculator</title>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+
+<form>
+	<span id="enter-number" title="number must be in between -10^9 and +10^9">Enter the first number<br></span>
+	<input type="number" id="first" title="number must be in between -10^9 and +10^9"   maxlength="10"><br><br>
+	<span id="enter-number" title="number must be in between -10^9 and +10^9">Enter second number<br></span>
+	<input type="number" id="second" title="number must be in between -10^9 and +10^9" maxlength="10"><br>
+	<br><h2 class="type">Arithmetic operations</h2><br>
+	&emsp;&emsp;<span id="add"><input type="button" class="button" value="add" onclick="add()" ></span>
+	<span id="subtract"><input type="button" value="subtract"  class="button" onclick="subtract()" title="first number - second number"></span>
+	<span id="multiply"><input type="button" value="multiply" onclick="multiply()"  class="button"  title="first number/second number"></span><br>
+	&emsp;&emsp;<span id="divide"><input type="button" value="divide" onclick="divide()"  class="button" title="first number/second nummber"></span>
+	<span id="exponent"><input type="button" class="button" value="power" onclick="power()" title="first number is base and second is exponent"></span>
+	<span id="modulo"><input type="button" value="modulo" onclick="modulo()"  class="button" title="first number modulo second number"></span>
+	<br><h2 class="type">Logical operations</h2><br>
+	&emsp;&emsp;<span id="addition"><input type="button" class="button" value="and" onclick="and()"></span>
+	<span id="addition"><input type="button" class="button" value="or" onclick="or()"></span>
+	<span id="addition"><input type="button" value="xor" class="button" onclick="xor()"></span><br>
+	&emsp;&emsp;<span id="addition"><input type="button" value="negation" class="button" onclick="negation()" title="only negation of first number is displayed"></span>
+	<span id="addition"><input type="button" class="button" value="nand" onclick="nand()"></span>
+	<span id="addition"><input type="button"  class="button" value="nor" onclick="nor()"></span>
+	<br><br><span id="output"></span>
+	<br>&emsp;&emsp;&emsp;&emsp;&emsp;<input type="reset" value="reset all data" onclick="location.reload();" id="clear">
+	
+</form>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
